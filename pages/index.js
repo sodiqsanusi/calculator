@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import { GlobalContext } from '../GlobalContext';
 import styled from 'styled-components';
 import CalcHeader from '../components/CalcHeader';
+import CalcScreen from '../components/CalcScreen';
 
 const Container = styled.main`
   width: 90%;
@@ -27,6 +28,7 @@ export default function Home() {
       </Head>
       <Container>
         <CalcHeader />
+        <CalcScreen />
       </Container>
     </>
   )
