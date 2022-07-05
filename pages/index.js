@@ -6,11 +6,13 @@ import styled from 'styled-components';
 import CalcHeader from '../components/CalcHeader';
 
 const Container = styled.main`
+  width: 90%;
   max-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin: 1.5rem auto;
 `;
 
 export default function Home() {

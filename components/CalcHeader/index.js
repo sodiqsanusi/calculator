@@ -1,8 +1,12 @@
+import ToggleSection from "./ToggleSection";
+import { Header } from "./CalcHeader.styled";
+
 const CalcHeader = () => {
   return ( 
-    <header>
-      <h1>Hii</h1>
-    </header>
+    <Header>
+      <h1>calc</h1>
+      <ToggleSection />
+    </Header>
   );
 }
  

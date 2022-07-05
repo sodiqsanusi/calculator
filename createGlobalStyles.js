@@ -5,7 +5,8 @@ const GlobalStyles = createGlobalStyle`
      --mainBackground: #3a4764;
      --auxBaxkground: #232c43;
      --screenBackground: #182034;
-     --textColor: #444b5a;
+     --textColor: #ffffff;
+     --keyTextColor: #444b5a;
      --keyBackground: #eae3dc;
      --keyShadow: #b4a597;
      --delButBackground: #637097;
