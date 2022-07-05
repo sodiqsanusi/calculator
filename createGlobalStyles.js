@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
    :root{
      --mainBackground: #3a4764;
-     --auxBaxkground: #232c43;
+     --auxBackground: #232c43;
      --screenBackground: #182034;
      --textColor: #ffffff;
      --keyTextColor: #444b5a;
@@ -15,7 +15,7 @@ const GlobalStyles = createGlobalStyle`
      --equalShadow: #93261a;
      ${({whichTheme}) => whichTheme == 2 && `
      --mainBackground: #e6e6e6;
-     --auxBaxkground: #d1cccc;
+     --auxBackground: #d1cccc;
      --screenBackground: #ededed;
      --textColor: #35352c;
      --keyBackground: #e5e4e1;
@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
      `}
      ${({whichTheme}) => whichTheme == 3 && `
      --mainBackground: #160628;
-     --auxBaxkground: #1d0934;
+     --auxBackground: #1d0934;
      --screenBackground: #1d0934;
      --textColor: #ffe53d;
      --keyBackground: #341c4f;

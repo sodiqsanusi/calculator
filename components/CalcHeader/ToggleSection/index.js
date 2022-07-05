@@ -1,6 +1,33 @@
+import {Container, Layout} from './ToggleSection.styled'
+import {useState} from 'react';
+import { useContext } from 'react';
+import { GlobalContext } from '../../../GlobalContext';
+
 const ToggleSection = () => {
+
+  let {changeTheme} = useContext(GlobalContext);
+  const [theme, setTheme] = useState(1);
+  let handleClick = (num) => {
+    setTheme(num);
+    changeTheme(num);
+  }
+
   return ( 
-    <aside>Toggle</aside>
+    <Container>
+      <h2>THEME</h2>
+      <Layout theme={theme}>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+        <section>
+          <button onClick={() => handleClick(1)}></button>
+          <button onClick={() => handleClick(2)}></button>
+          <button onClick={() => handleClick(3)}></button>
+        </section>
+      </Layout>
+    </Container>
   );
 }
  
