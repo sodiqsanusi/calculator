@@ -45,7 +45,7 @@ const GlobalStyles = createGlobalStyle`
   }
   body{
     background-color: var(--mainBackground);
-    color: white;
+    color: var(--textColor);
   }
   img{
     width: 100%;
