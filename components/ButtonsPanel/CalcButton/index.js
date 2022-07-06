@@ -32,7 +32,7 @@ const CalcButton = ({children, col, bCol, fSize, bShad, large}) => {
       setNumber(number.slice(0, -1));
       return;
     }
-    if(/\+|\-|\/|\×/.test(letter)){
+    if(/\+|\-|\/|×/.test(letter)){
       if(letter == '×'){
         setEquation(equation + number + '*');
         setNumber('0');
