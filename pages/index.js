@@ -5,6 +5,7 @@ import { GlobalContext } from '../GlobalContext';
 import styled from 'styled-components';
 import CalcHeader from '../components/CalcHeader';
 import CalcScreen from '../components/CalcScreen';
+import ButtonsPanel from '../components/ButtonsPanel';
 
 const Container = styled.main`
   width: 90%;
@@ -29,6 +30,7 @@ export default function Home() {
       <Container>
         <CalcHeader />
         <CalcScreen />
+        <ButtonsPanel />
       </Container>
     </>
   )
