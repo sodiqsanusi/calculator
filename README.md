@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Countries Unknown
 
-## Getting Started
+## Table of contents
 
-First, run the development server:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Overview
+The goal was to build a web app where users can perform basic mathematical operations, a calculator-like web application. The application must also have a multithemed concept, with the ability to switch between themes seamless and made easy as possible.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### The challenge
+Users should be able to:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- View the optimal layout for the app depending on their device's screen size.
+- See the size of the elements adjust based on their device's screen size..
+- Perform mathematical operations like addition, subtraction, multiplication, and division
+- Adjust the color theme based on their preference.
+- [ ] Have their initial theme preference checked using `prefers-color-scheme` and have any additional changes saved in the browser _(optional)_ .
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Screenshot
+![](./screenshot.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Links
+- Solution URL: [https://github.com/sodiqsanusi/calculator/]()
+- Live Site URL: [https://calcxr.netlify.app/]()
 
-## Learn More
+## My process
+First time building an application with Next.js🥳! Even though this was a new framework, I still retained the process I use when building React applications.
+Started with a hand-drawn wireframe that broke down all design elements to component-level stuff, setup my preferred CSS-in-JS tool which is styled-components, then eliminated most boilerplate code that came with the `create-next-app` command.
 
-To learn more about Next.js, take a look at the following resources:
+Built the interface without functionality using the mobile-first workflow in my approach, worked on improving accessibility by taking feedback from the Lighthouse tools, then worked on the main functionalities while making sure the already built interface didn't break by the addition of functionalities. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Built with
+- CSS Grid
+- Mobile-first workflow
+- [Next.js](https://nextjs.org/) - React framework.
+- [Styled Components](https://styled-components.com/) - CSS-in-JS solution for styling dynamic content.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### What I learned
+Wheew! Learnt a lot during the creation of this app really. For the past two to three weeks, I had been working on my JavaScript algorithm skills, so the functionality aspect of the app wasn't really hard like that. New things I learnt:
+- How to configure styled-components for Next.js applications.
+- The effects of file structure of a JavaScript application and the best way to structure your application's content.
 
-## Deploy on Vercel
+### Continued development
+Okayy, things I want to get better at. In this project, I didn't get to fetch and use data on the application, so I'm planning to build something that will require data from an API maybe, will try practising Static Site Generation, Server Side Rendering and Incremental Static Regeneration with said app, fingers crossed🤞🏾.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Also want to try collaborating with someone or a group of people on a project. I understand that building apps with different people comes with its own challenges and I want to familiarize myself with that early on.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Useful resources
+- [Eval() vs Function() in JavaScript](https://www.educative.io/answers/eval-vs-function-in-javascript) - Had to convert strings to a mathematical expression in the app, and I had seen it somewhere that `eval()` shouldn't be used as it could open up a lot of security issues. Was looking for an alternative and this article along with the MDN Docs for `Function()` helped me out. Recommended for a situation like mine👍🏾.
+- [Creating a custom scrollbar - W3Schools](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp) - Though you might not see it, there is a part of the app where I made a custom scrollbar for overflowing content🙃, W3Schools was helpful as always in helping to explain things. 
+
+## Author
+- Twitter - [@sodiqsanusi0](https://www.twitter.com/sodiqsanusi0)
+- LinkedIn - [Sodiq Sanusi](https://www.linkedin.com/in/sodiqsanusi0)
+
+## Acknowledgments
+To freeCodeCamp for helping me with algorithms and data structures👏🏾 and the FrontendMentor team for the designs of this web application.
+
+**PS:** There is a PDF file in this directory that shows the lighthouse metrics in detail.
