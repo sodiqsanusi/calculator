@@ -4,7 +4,7 @@ import { ServerStyleSheet } from 'styled-components';
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang='en'>
         <Head>
           <meta name='description' content='A multi-themed calculator. Just for fun!'/>
           <meta name='author' content='Sodiq Sanusi'/>

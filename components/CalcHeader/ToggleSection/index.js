@@ -22,9 +22,9 @@ const ToggleSection = () => {
           <li>3</li>
         </ul>
         <section>
-          <button onClick={() => handleClick(1)}></button>
-          <button onClick={() => handleClick(2)}></button>
-          <button onClick={() => handleClick(3)}></button>
+          <button onClick={() => handleClick(1)} aria-label='Click to switch to the dark theme'></button>
+          <button onClick={() => handleClick(2)} aria-label='Click to switch to the light theme'></button>
+          <button onClick={() => handleClick(3)} aria-label='Click to switch to the purple theme'></button>
         </section>
       </Layout>
     </Container>
