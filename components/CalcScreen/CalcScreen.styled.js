@@ -9,6 +9,7 @@ export const Container = styled.section`
   background-color: var(--screenBackground);
   color: var(--textColor);
   font-size: min(12vw, 3rem);
+  margin-bottom: .8em;
   p{
     overflow-x: auto;
     ::-webkit-scrollbar{
