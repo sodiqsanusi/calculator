@@ -30,8 +30,8 @@ Users should be able to:
 ![](./screenshot.png)
 
 ### Links
-- Solution URL: [https://github.com/sodiqsanusi/calculator/]()
-- Live Site URL: [https://calcxr.netlify.app/]()
+- Solution URL: [https://github.com/sodiqsanusi/calculator/](https://github.com/sodiqsanusi/calculator/)
+- Live Site URL: [https://calcxr.netlify.app/](https://calcxr.netlify.app/)
 
 ## My process
 First time building an application with Next.js🥳! Even though this was a new framework, I still retained the process I use when building React applications.
